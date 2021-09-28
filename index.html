@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="theme-color" content="#F1F1F1">
+
+  <link rel="icon" type="imagem/png" href="assets/owlStarter-logo2.png">
+
+  <title>OWL STARTER</title>
+
+</head>
+
+<body>
+
+  <header>
+    <a href="#" id="starter"class="logo"><b>OLW</b> STARTER</a>
+    <ul>
+      <li><a href="#">Sobre</a></li>
+      <li><a href="#">Serviços</a></li>
+      <li><a href="#">Portfólio</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </header>
+
+  <div class="sidebar">
+    <ul class="social-midias">
+      <li><a href="#"><img src="assets/whats92x92.png"></a></li>
+      <li><a href="#"><img src="assets/insta92x92.png"></a></li>
+      <li><a href="#"><img src="assets/linkedin92x92.png"></a></li>
+    </ul>
+  </div>
+
+  <section class="intro">
+    <div class="container">
+      <div class="content-intro">
+        <img src="assets/owlStarter-logo.png" alt="Logo da Owl Starter">
+        <div class="text">
+          <p>Modernize-se</p>
+        </div>
+        <!-- <div class="button">
+          <a href="#" class="orcamento">COMEÇAR</a>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <section class="contato">
+    <div class="container-contato">
+      <div class="contatoInfo">
+        <div>
+          <h2>Informações de Contato</h2>
+          <ul class="info">
+            <li>
+              <span><img src="assets/o-email.png" alt="email"></span>
+              <span>owlstarter@outlook.com</span>
+            </li>
+            <li>
+              <span><img src="assets/whatsapp.png" alt="whatsapp"></span>
+              <span>(67) 9 9977-5102</span>
+            </li>
+          </ul>
+        </div>
+
+        
+        <ul class="sci">
+          <li><a href="#"><img src="assets/1.png"></a></li>
+          <li><a href="#"><img src="assets/3.png"></a></li>
+          <li><a href="#"><img src="assets/5.png"></a></li>
+        </ul>
+
+
+      </div>
+      <div class="contatoForm">
+        <h2>Envie-nos uma Mensagem</h2>
+        <div class="formBox">
+          <div class="inputBox w50">
+            <input type="text" required>
+            <span>Primeiro Nome</span>
+          </div>
+          <div class="inputBox w50">
+            <input type="text" required>
+            <span>Segundo Nome</span>
+          </div>
+          <div class="inputBox w50">
+            <input type="email" required>
+            <span>Melhor Email</span>
+          </div>
+          <div class="inputBox w50">
+            <input type="email" required>
+            <span>Número para Contato</span>
+          </div>
+          <div class="inputBox w100">
+            <textarea required></textarea>
+            <span>Escreva aqui a sua mensagem...</span>
+          </div>
+          <div class="inputBox w100">
+            <input type="submit" value="Enviar">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script type="text/javascript">
+    window.addEventListener("scroll", function() {
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    })
+  </script>
+  
+</body>
+
+
+</html>
